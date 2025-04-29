@@ -21,7 +21,19 @@ minikube version
 kubectl version
 ```
 
-Si alguna de estas herramientas no está instalada, asegúrate de instalarla antes de ejecutar el script.
+### Puedes instalarlos con los siguientes comandos:
+
+```bash
+# Para instalar git
+sudo apt-get install git
+
+# Para instalar minikube
+curl -Lo minikube.deb https://storage.googleapis.com/minikube/releases/latest/minikube_$(uname -m).deb
+sudo dpkg -i minikube.deb
+
+# Para instalar kubectl
+sudo apt-get update && sudo apt-get install -y kubectl
+```
 
 ## Instrucciones
 
