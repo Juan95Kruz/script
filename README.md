@@ -13,7 +13,7 @@ Este script requiere que tengas instaladas las siguientes dependencias:
 - **minikube**: para iniciar el entorno local de Kubernetes.
 - **kubectl**: para interactuar con el clúster de Kubernetes.
 
-Puedes verificar si las tienes instaladas ejecutando el siguiente comando:
+### Puedes verificar si las tienes instaladas ejecutando el siguiente comando:
 
 ```bash
 git --version
